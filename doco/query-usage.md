@@ -135,7 +135,7 @@ Multiple where statements with a logical grouping can be expressed:
       {path: "Property", comparison: "startsWith", value: "Valu"},
       {
         "groupedExpressions": [
-          {path: "Property", comparison: "endsWith", value: "ue", comparison: "or"},
+          {path: "Property", comparison: "endsWith", value: "ue", connector: "or"},
           {path: "Property", comparison: "endsWith", value: "id"}
         ]
       }
